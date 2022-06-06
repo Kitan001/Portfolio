@@ -1,0 +1,73 @@
+        body {
+            background-color: burlywood;
+            /* background: url("/Login/Grad.jpg"); */
+            background-size: cover;
+        }
+        
+        .loginbox {
+            width: 320px;
+            height: 420px;
+            background-color: transparent;
+            top: 70%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            padding: 70px 30px;
+            /*border-style: groove;
+            border-radius: 2em;*/
+        }
+        
+        .Me {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: absolute;
+            /* border: 1px solid black;*/
+            top: -50px;
+            left: calc(32%);
+            /*background-color: white;*/
+        }
+        
+        .loginbox input {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        
+        .loginbox input[type=text],
+        input[type="password"] {
+            border: none;
+            border-bottom: 2px solid rgb(14, 13, 13);
+            background: transparent;
+            outline: none;
+            height: 40px;
+            color: black;
+            font-size: 16px;
+        }
+        
+        .loginbox input[type="submit"] {
+            border: none;
+            outline: none;
+            height: 40px;
+            background-color: #006b;
+            color: white;
+            font-size: larger;
+            border-radius: 20px;
+        }
+        
+        .loginbox input[type="submit"]:hover {
+            cursor: pointer;
+            background-color: transparent;
+            border: 1px solid #006b;
+            color: black;
+        }
+        
+        .loginbox a {
+            text-decoration: none;
+            font-size: medium;
+            color: brown;
+            line-height: 20px;
+        }
+        
+        .loginbox a:hover {
+            color: black;
+        }
